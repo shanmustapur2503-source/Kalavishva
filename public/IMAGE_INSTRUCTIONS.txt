@@ -1,0 +1,9 @@
+Add your real brand assets here:
+logo.png
+hero-1.jpg
+hero-2.jpg
+hero-3.jpg
+hero-4.jpg
+
+Add product photos under public/products/:
+product1.jpg through product8.jpg
