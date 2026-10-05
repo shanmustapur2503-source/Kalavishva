@@ -136,7 +136,7 @@ const data = {
       oldPrice: 100,
         sale: true,
   saleLabel: "50 % OFF",
-      image: "/products/product4.jpg",
+      image: "/products/product4.png",
       description: "A sacred symbol of divine wisdom, peace, and spiritual enlightenment.(4*4 Inch)",
       available: true,
       featured: true,
