@@ -2164,3 +2164,94 @@ a {
     transition: none !important;
   }
 }
+
+
+
+
+/* =========================================================
+   MOBILE: SHOW 4 PRODUCTS AT A TIME (2 columns x 2 rows)
+   ========================================================= */
+
+@media (max-width: 650px) {
+  .shop-section {
+    padding: 50px 12px 60px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .product-image-wrapper {
+    flex: 0 0 170px;
+    height: 170px;
+  }
+
+  .product-info {
+    padding: 10px;
+  }
+
+  .product-category {
+    font-size: 8px;
+    margin-bottom: 5px;
+  }
+
+  .product-info h3 {
+    font-size: 14px;
+    min-height: 36px;
+    margin-bottom: 4px;
+  }
+
+  .price {
+    margin: 8px 0;
+    gap: 6px;
+    min-height: 20px;
+  }
+
+  .price span {
+    font-size: 14px;
+  }
+
+  .price del {
+    font-size: 11px;
+  }
+
+  .add-button,
+  .whatsapp-product {
+    height: 36px;
+  }
+
+  .add-button {
+    font-size: 11px;
+    padding: 8px;
+  }
+
+  .whatsapp-product {
+    flex: 0 0 36px;
+    width: 36px;
+  }
+
+  .sale-badge {
+    top: 8px;
+    left: 8px;
+    padding: 4px 6px;
+    font-size: 8px;
+  }
+}
+
+/* Small phones: keep 2 columns (this cancels the old 1-column rule) */
+@media (max-width: 420px) {
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .product-image-wrapper {
+    flex: 0 0 150px;
+    height: 150px;
+  }
+
+  .product-info h3 {
+    font-size: 13px;
+  }
+}
