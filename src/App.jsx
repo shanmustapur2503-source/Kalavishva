@@ -617,13 +617,69 @@ function App() {
         </section>
       )}
 
+
+
+
+      {/* =====================================================
+          MOVING PRODUCT BANNER
+      ===================================================== */}
+
+      {(data.products || []).length > 0 && (
+        <section className="marquee-section" aria-label="Featured products">
+          <div className="marquee-viewport">
+            <div
+              className="marquee-track"
+              style={{
+                animationDuration: `${Math.max(
+                  (data.products || []).length * 3,
+                  20
+                )}s`,
+              }}
+            >
+              {[...(data.products || []), ...(data.products || [])].map(
+                (product, index) => (
+                  <button
+                    type="button"
+                    className="marquee-card"
+                    key={`${product.id}-${index}`}
+                    onClick={() => setSelectedProduct(product)}
+                    aria-label={`View ${product.name}`}
+                  >
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                      className="marquee-image"
+                      draggable="false"
+                    />
+
+                    <div className="marquee-info">
+                      <span className="marquee-name">{product.name}</span>
+                      <span className="marquee-price">₹{product.price}</span>
+                    </div>
+                  </button>
+                )
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
+
+
+
+
+
+
+
+
+
       {/* =====================================================
           SHOP
       ===================================================== */}
 
       <section id="shop" className="shop-section">
 
-        <div className="section-heading">
+        {/* <div className="section-heading">
 
           <p className="section-small-title">
             DISCOVER OUR COLLECTION
@@ -635,7 +691,7 @@ function App() {
             Explore our handcrafted creations.
           </p>
 
-        </div>
+        </div> */}
 
         <div className="categories">
 

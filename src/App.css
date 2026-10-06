@@ -2308,3 +2308,182 @@ a {
     transform: scale(2.5);
   }
 }
+
+
+
+
+
+
+/* =========================================================
+   MOVING PRODUCT BANNER (auto-scrolling rounded cards)
+   ========================================================= */
+
+.marquee-section {
+  width: 100%;
+  padding: 10px 0 20px;
+  background: var(--ivory);
+}
+
+.marquee-viewport {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+  /* soft fade on the left and right edges */
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0,
+    #000 6%,
+    #000 94%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0,
+    #000 6%,
+    #000 94%,
+    transparent 100%
+  );
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marqueeScroll 60s linear infinite;
+  will-change: transform;
+}
+
+/* pause while the cursor is over it or a finger is touching it */
+.marquee-viewport:hover .marquee-track,
+.marquee-viewport:active .marquee-track {
+  animation-play-state: paused;
+}
+
+.marquee-card {
+  flex: 0 0 auto;
+  width: 220px;
+  margin-right: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--stone);
+  border-radius: 20px;
+  background: var(--white);
+  text-align: left;
+  box-shadow: 0 8px 22px rgba(23, 63, 53, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease,
+    border-color 0.25s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.marquee-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--gold);
+  box-shadow: 0 14px 30px rgba(23, 63, 53, 0.16);
+}
+
+.marquee-image {
+  width: 100%;
+  height: 220px;
+  display: block;
+  object-fit: cover;
+  background: var(--sand);
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.marquee-info {
+  padding: 12px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.marquee-name {
+  color: var(--green);
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.marquee-price {
+  color: var(--gold-dark);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+@keyframes marqueeScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 650px) {
+  .marquee-card {
+    width: 150px;
+    margin-right: 12px;
+    border-radius: 16px;
+  }
+
+  .marquee-image {
+    height: 150px;
+  }
+
+  .marquee-info {
+    padding: 9px 11px 11px;
+  }
+
+  .marquee-name {
+    font-size: 13px;
+  }
+
+  .marquee-price {
+    font-size: 12px;
+  }
+}
+
+/* Slow, user-controlled scroll if the device asks for less motion */
+@media (prefers-reduced-motion: reduce) {
+  .marquee-viewport {
+    overflow-x: auto;
+  }
+
+  .marquee-track {
+    animation: none;
+  }
+}
+
+/* =========================================================
+   MOVING BANNER: SIMPLE PURPLE LINE (top and bottom)
+   ========================================================= */
+
+.marquee-section {
+  position: relative;
+  margin: 30px 0 10px;
+  padding: 40px 0;
+  background: #faf5ff;
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+}
+
+/* remove the decorative bands from the earlier versions */
+.marquee-section::before,
+.marquee-section::after {
+  content: none;
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .marquee-section {
+    margin: 20px 0 6px;
+    padding: 28px 0;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+  }
+}
