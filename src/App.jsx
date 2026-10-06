@@ -1019,7 +1019,7 @@ function App() {
 
               </div> */}
 
-
+{/* 
 <div
   className="product-detail-image-box"
   onMouseMove={(event) => {
@@ -1042,7 +1042,58 @@ function App() {
     className="product-detail-image"
   />
 
+</div> */}
+
+
+
+
+<div
+  className="product-detail-image-box"
+  onMouseMove={(event) => {
+    const rect = event.currentTarget.getBoundingClientRect();
+    const x = ((event.clientX - rect.left) / rect.width) * 100;
+    const y = ((event.clientY - rect.top) / rect.height) * 100;
+
+    event.currentTarget.style.setProperty("--zoom-x", `${x}%`);
+    event.currentTarget.style.setProperty("--zoom-y", `${y}%`);
+  }}
+  onMouseLeave={(event) => {
+    event.currentTarget.style.setProperty("--zoom-x", "50%");
+    event.currentTarget.style.setProperty("--zoom-y", "50%");
+  }}
+  onClick={(event) => {
+    const box = event.currentTarget;
+    const rect = box.getBoundingClientRect();
+    const x = ((event.clientX - rect.left) / rect.width) * 100;
+    const y = ((event.clientY - rect.top) / rect.height) * 100;
+
+    box.style.setProperty("--zoom-x", `${x}%`);
+    box.style.setProperty("--zoom-y", `${y}%`);
+    box.classList.toggle("zoomed");
+  }}
+  onTouchMove={(event) => {
+    const box = event.currentTarget;
+
+    if (!box.classList.contains("zoomed")) return;
+
+    const touch = event.touches[0];
+    const rect = box.getBoundingClientRect();
+    const x = Math.min(Math.max(((touch.clientX - rect.left) / rect.width) * 100, 0), 100);
+    const y = Math.min(Math.max(((touch.clientY - rect.top) / rect.height) * 100, 0), 100);
+
+    box.style.setProperty("--zoom-x", `${x}%`);
+    box.style.setProperty("--zoom-y", `${y}%`);
+  }}
+>
+
+  <img
+    src={selectedProduct.image}
+    alt={selectedProduct.name}
+    className="product-detail-image"
+  />
+
 </div>
+
 
 
 
