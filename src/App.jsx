@@ -1009,7 +1009,7 @@ function App() {
 
             <div className="product-detail-content">
 
-              <div className="product-detail-image-box">
+              {/* <div className="product-detail-image-box">
 
                 <img
                   src={selectedProduct.image}
@@ -1017,7 +1017,38 @@ function App() {
                   className="product-detail-image"
                 />
 
-              </div>
+              </div> */}
+
+
+<div
+  className="product-detail-image-box"
+  onMouseMove={(event) => {
+    const rect = event.currentTarget.getBoundingClientRect();
+    const x = ((event.clientX - rect.left) / rect.width) * 100;
+    const y = ((event.clientY - rect.top) / rect.height) * 100;
+
+    event.currentTarget.style.setProperty("--zoom-x", `${x}%`);
+    event.currentTarget.style.setProperty("--zoom-y", `${y}%`);
+  }}
+  onMouseLeave={(event) => {
+    event.currentTarget.style.setProperty("--zoom-x", "50%");
+    event.currentTarget.style.setProperty("--zoom-y", "50%");
+  }}
+>
+
+  <img
+    src={selectedProduct.image}
+    alt={selectedProduct.name}
+    className="product-detail-image"
+  />
+
+</div>
+
+
+
+
+
+
 
               <div className="product-detail-info">
 

@@ -2255,3 +2255,29 @@ a {
     font-size: 13px;
   }
 }
+
+
+
+
+
+
+/* =========================================================
+   PRODUCT IMAGE HOVER ZOOM (Flipkart / Amazon style)
+   Desktop only: mobile and touch screens are unchanged
+   ========================================================= */
+
+@media (hover: hover) and (pointer: fine) {
+  .product-detail-image-box {
+    cursor: zoom-in;
+  }
+
+  .product-detail-image {
+    transform-origin: var(--zoom-x, 50%) var(--zoom-y, 50%);
+    transition: transform 0.15s ease-out;
+    will-change: transform;
+  }
+
+  .product-detail-image-box:hover .product-detail-image {
+    transform: scale(2.2);
+  }
+}
