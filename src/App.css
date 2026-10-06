@@ -2487,3 +2487,37 @@ a {
     border-bottom-width: 3px;
   }
 }
+
+
+
+
+/* =========================================================
+   MOVING BANNER: ALWAYS MOVE ON PHONES
+   ========================================================= */
+
+/* Keep moving even if the phone has "reduce motion" turned on */
+@media (prefers-reduced-motion: reduce) {
+  .marquee-viewport {
+    overflow: hidden;
+  }
+
+  .marquee-track {
+    animation-name: marqueeScroll;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+  }
+}
+
+/* Phones: never stay paused after a tap */
+.marquee-viewport:hover .marquee-track,
+.marquee-viewport:active .marquee-track {
+  animation-play-state: running;
+}
+
+/* Pause on hover only for computers with a mouse */
+@media (hover: hover) and (pointer: fine) {
+  .marquee-viewport:hover .marquee-track {
+    animation-play-state: paused;
+  }
+}
