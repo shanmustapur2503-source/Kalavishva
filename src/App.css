@@ -59,7 +59,8 @@ a {
 /* Header */
 .header {
   /* background: rgba(252, 250, 245, 0.97); */
-    background: #f5e1f3;
+    background: #ffffff;
+
 
   border-bottom: 1px solid var(--stone);
   position: sticky;

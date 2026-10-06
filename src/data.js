@@ -2,7 +2,7 @@ const data = {
   brand: {
     name: "Kalavishva",
     tagline: "crafted with soul",
-    logo: "/products/logo.jpg",
+    logo: "/products/logo.png",
     email: "kalavishvacraftedwithsoul@gmail.com",
     phone: "9762324854",
     whatsapp: "919762324854",
