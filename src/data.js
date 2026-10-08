@@ -96,6 +96,11 @@ const data = {
 
   image: "/products/product1.png",
 
+  images: [
+        "/products/product1-2.png",
+        "/products/product1-3.png",
+      ],
+
   description: "A sacred daily meal prayer brought to life on your kitchen fridge.(4*3 Inch)",
 
   available: true,
@@ -111,6 +116,11 @@ const data = {
       sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product2.png",
+
+      images: [
+        "/products/product2-2.jpeg",
+        "/products/product2-3.png",
+      ],
       description: "Celebrate every day with divine Marathi traditions on your fridge.(4*4 Inch)",
       available: true,
       featured: true,
@@ -124,6 +134,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product3.png",
+
+      images: [
+        "/products/product3-2.png",
+        "/products/product3-3.png",
+      ],
       description: "A unique handcrafted art piece created to make your space feel personal.( 4*3 Inch)",
       available: true,
       featured: true,
@@ -137,6 +152,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product4.png",
+
+      images: [
+        "/products/product4-2.png",
+        "/products/product4-3.png",
+      ],
       description: "A sacred symbol of divine wisdom, peace, and spiritual enlightenment.(4*4 Inch)",
       available: true,
       featured: true,
@@ -150,6 +170,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product5.png",
+
+       images: [
+        "/products/product5-2.png",
+        "/products/product5-3.png",
+      ],
       description: "A thoughtfully curated handmade gift set for someone special.",
       available: true,
       featured: true,
@@ -163,19 +188,29 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product6.png",
+
+       images: [
+        "/products/product6-2.png",
+      
+      ],
       description: "A charming miniature handmade piece perfect for gifting or decorating.",
       available: true,
       featured: false,
     },
     {
       id: 31,
-      name: "Heritage Hand-Grind Marathi Traditional Fridge Magnet",
+      name: "Heritage Hand-Grind Marathi Traditional Fridge Magnet (4*3inch)",
       category: "Fridge Magnet",
       price: 50,
       oldPrice: 100,
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product31.png",
+
+       images: [
+        "/products/product31-2.png",
+        "/products/product31-3.jpeg",
+      ],
       description: "Bring home the warm nostalgia of traditional Maharashtrian heritage with this handcrafted magnet featuring classic Marathi Ovi verses and rural art.",
       available: true,
       featured: false,
@@ -189,6 +224,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product32.png",
+
+       images: [
+        "/products/product32-2.png",
+        "/products/product32-3.png",
+      ],
       description: "Bring home the warm nostalgia of traditional Maharashtrian heritage with this handcrafted magnet featuring classic Marathi Ovi verses and rural art.",
       available: true,
       featured: false,
@@ -202,6 +242,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product7.png",
+
+       images: [
+        "/products/product7-2.png",
+        "/products/product7-3.png",
+      ],
       description: "Handcrafted Goddess Saraswati symbol on pure Khan cloth—blessing your space with wisdom and artistry.",
       available: true,
       featured: false,
@@ -215,6 +260,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product8.png",
+
+       images: [
+        "/products/product8-2.png",
+        "/products/product8-3.png",
+      ],
       description: "Handcrafted Goddess Saraswati symbol on pure Khan cloth—blessing your space with wisdom and artistry.",
       available: true,
       featured: false,
@@ -228,6 +278,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product9.png",
+
+       images: [
+        "/products/product9-2.png",
+        
+      ],
       description: "Goddess Saraswati symbol fridge magnet round MDF for decore and gifting.",
       available: true,
       featured: true,
@@ -241,6 +296,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product10.png",
+
+       images: [
+        "/products/product10-2.png",
+        "/products/product10-3.png",
+      ],
       description: "Beautiful handcrafted wall art designed to add warmth and character to your home.",
       available: true,
       featured: true,
@@ -254,6 +314,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product11.png",
+
+       images: [
+        "/products/product11-2.png",
+        "/products/product11-3.png",
+      ],
       description: " A vibrant handcrafted Kathakali fridge magnet bringing the rich drama and classic art of Kerala to your kitchen.",
       available: true,
       featured: true,
@@ -267,6 +332,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product12.png",
+
+       images: [
+        "/products/product12-2.png",
+        "/products/product12-3.png",
+      ],
       description: "A serene Buddha magnet with नमो बुद्धाय script to bring peace, mindfulness, and calm to your space.",
       available: true,
       featured: true,
@@ -280,6 +350,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product13.png",
+
+       images: [
+        "/products/product13-2.png",
+        "/products/product13-3.jpeg",
+      ],
       description: " Lord Krishna mantra fridge magnet",
       available: true,
       featured: true,
@@ -293,6 +368,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product14.png",
+
+       images: [
+        "/products/product14-2.png",
+        "/products/product14-3.png",
+      ],
       description: " Bring divine grace and blessings into your home with this beautifully detailed Aai Ambabai fridge magnet.",
       available: true,
       featured: true,
@@ -306,6 +386,8 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product15.png",
+
+      
       description: "Pichwai Kamdhenu Cow artwork—perfect as a table rangoli, wall accent, decorative piece, or a thoughtful gift.",
       available: true,
       featured: true,
@@ -319,6 +401,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product16.png",
+
+       images: [
+        "/products/product16-2.png",
+        "/products/product16-3.png",
+      ],
       description: "Divine Shubh-Labh Lakshmi and Saraswati symbol fridge magnet set bringing wealth, wisdom, and auspicious energy to your home.",
       available: true,
       featured: true,
@@ -332,6 +419,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product17.png",
+
+       images: [
+        "/products/product17-2.png",
+        "/products/product17-3.png",
+      ],
       description: "Sacred Chaitrangan and Annapurna leaf fridge magnet set bringing traditional rangoli blessings and food abundance to your kitchen.",
       available: true,
       featured: true,
@@ -345,6 +437,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product18.png",
+
+       images: [
+        "/products/product18-2.png",
+        "/products/product18-3.png",
+      ],
       description: "Exquisite Devi Ambabai Jharokha fridge magnet bringing divine Kolhapuri blessings and traditional royal arch design to your space.",
       available: true,
       featured: true,
@@ -358,6 +455,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product19.png",
+
+       images: [
+        "/products/product19-2.png",
+        "/products/product19-3.png",
+      ],
       description: "Exquisite Devi Ambabai Jharokha fridge magnet bringing divine Kolhapuri blessings and traditional royal arch design to your space.",
       available: true,
       featured: true,
@@ -371,6 +473,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product20.png",
+
+       images: [
+        "/products/product20-2.png",
+        "/products/product20-3.png",
+      ],
       description: "Exquisite Devi Ambabai Jharokha fridge magnet bringing divine Kolhapuri blessings and traditional royal arch design to your space.",
       available: true,
       featured: true,
@@ -384,6 +491,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product21.png",
+
+       images: [
+        "/products/product21-2.png",
+        "/products/product21-3.png",
+      ],
       description: "Brighten your fridge with this vibrant orange Devi Saraswati Jharokha magnet, bringing divine elegance and traditional craftsmanship to your home.",
       available: true,
       featured: true,
@@ -397,6 +509,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product22.png",
+
+       images: [
+        "/products/product22-2.png",
+        "/products/product22-3.png",
+      ],
       description: "Bring divine blessings and spiritual harmony into your home with this handcrafted Shree Swami Samarth Jharokha fridge magnet.",
       available: true,
       featured: true,
@@ -410,6 +527,12 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product23.png",
+      
+       images: [
+        "/products/product23-2.png",
+        "/products/product23-3.png",
+      ],
+
       description: "Celebrate your love for the language with this handcrafted Labhale Amhas Bhagya Marathi fridge magnet, adding cultural pride to your home.",
       available: true,
       featured: true,
@@ -423,6 +546,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product24.png",
+
+       images: [
+        "/products/product24-2.png",
+        "/products/product24-3.png",
+      ],
       description: "Honor the legacy of Chhatrapati Shivaji Maharaj with this 2.5-inch Shiv Rajmudra fridge magnet, adding royal Marathi heritage to your home.",
       available: true,
       featured: true,
@@ -436,6 +564,8 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product25.png",
+
+       
       description: "Showcase your cultural pride with this handcrafted Maharashtra Desha fridge magnet, bringing the rich history and spirit of Maharashtra to your home.",
       available: true,
       featured: true,
@@ -449,6 +579,12 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product26.png",
+
+
+       images: [
+        "/products/product26-2.png",
+        
+      ],
       description: "Bring a touch of positivity and traditional charm to your home with this Shubh Labh Wall Hanging.",
       available: true,
       featured: true,
@@ -462,6 +598,13 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product27.png",
+
+       images: [
+        "/products/product27-2.png",
+        
+      ],
+
+
       description: "Bring a touch of positivity and traditional charm to your home with this peacock Wall Hanging.",
       available: true,
       featured: true,
@@ -475,6 +618,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product28.png",
+
+       images: [
+        "/products/product28-2.jpg",
+        "/products/product28-3.png",
+      ],
       description: "Combo of Subh Labh wall hanging and T light holder set",
       available: true,
       featured: true,
@@ -488,6 +636,7 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product29.png",
+
       description: "Beautiful velvet t-light candle holders that add an attractive and elegant touch to your home décor",
       available: true,
       featured: true,
@@ -501,6 +650,11 @@ const data = {
         sale: true,
   saleLabel: "50 % OFF",
       image: "/products/product30.jpg",
+
+       images: [
+        "/products/product30-2.jpg",
+        "/products/product30-3.jpg",
+      ],
       description: "Beautiful velvet t-light candle holders that add an attractive and elegant touch to your home décor",
       available: true,
       featured: true,
