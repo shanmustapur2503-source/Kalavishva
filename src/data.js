@@ -659,6 +659,260 @@ const data = {
       available: true,
       featured: true,
     },
+    {
+      id: 33,
+      name: "Rangoli Decor (Design-1)",
+      category: "Home Decor",
+      price: 120,
+      oldPrice: 240,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product33.png",
+
+       images: [
+        "/products/product33-2.jpeg",
+      ],
+      description: "A handcrafted MDF mandala rangoli, perfect for festive home decor.",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 34,
+      name: "Rangoli Decor (Design-2)",
+      category: "Home Decor",
+      price: 120,
+      oldPrice: 240,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product34.png",
+
+       images: [
+        "/products/product34-2.jpeg",
+      ],
+      description: "A handcrafted MDF mandala rangoli, perfect for festive home decor.",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 35,
+      name: "Rangoli Decor (Design-3)",
+      category: "Home Decor",
+      price: 120,
+      oldPrice: 240,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product35.png",
+
+       images: [
+        "/products/product35-2.jpeg",
+      ],
+      description: "A handcrafted MDF mandala rangoli, perfect for festive home decor.",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 36,
+      name: "Rangoli Decor (Design-4)",
+      category: "Home Decor",
+      price: 120,
+      oldPrice: 240,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product36.png",
+
+       images: [
+        "/products/product36-2.jpeg",
+      ],
+      description: "A handcrafted MDF mandala rangoli, perfect for festive home decor.",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 37,
+      name: "Rangoli Decor (Design-5)",
+      category: "Home Decor",
+      price: 120,
+      oldPrice: 240,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product37.png",
+
+       images: [
+        "/products/product37-2.jpeg",
+      ],
+      description: "A handcrafted MDF mandala rangoli, perfect for festive home decor.",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 38,
+      name: "Rangoli Decor (Design-6)",
+      category: "Home Decor",
+      price: 120,
+      oldPrice: 240,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product38.png",
+
+       images: [
+        "/products/product38-2.jpeg",
+      ],
+      description: "A handcrafted MDF mandala rangoli, perfect for festive home decor.",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 39,
+      name: "Rangoli Decor (Design-7)",
+      category: "Home Decor",
+      price: 120,
+      oldPrice: 240,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product39.png",
+
+       images: [
+        "/products/product39-2.jpeg",
+      ],
+      description: "A handcrafted MDF mandala rangoli, perfect for festive home decor.",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 40,
+      name: "Rangoli Decor (Design-8)",
+      category: "Home Decor",
+      price: 120,
+      oldPrice: 240,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product40.png",
+
+       images: [
+        "/products/product40-2.jpeg",
+      ],
+      description: "A handcrafted MDF mandala rangoli, perfect for festive home decor.",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 41,
+      name: "Rangoli Decor (Design-9)",
+      category: "Home Decor",
+      price: 120,
+      oldPrice: 240,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product41.png",
+
+       images: [
+        "/products/product41-2.jpeg",
+      ],
+      description: "A handcrafted MDF mandala rangoli, perfect for festive home decor.",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 42,
+      name: "Rangoli Decor (Design-10)",
+      category: "Home Decor",
+      price: 120,
+      oldPrice: 240,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product42.png",
+
+       images: [
+        "/products/product42-2.jpeg",
+      ],
+      description: "A handcrafted MDF mandala rangoli, perfect for festive home decor.",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 43,
+      name: "Door plaque",
+      category: "Home Decor",
+      price: 70,
+      oldPrice: 140,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product43.png",
+
+      description: "Shree Ram prasanna",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 44,
+      name: "Door plaque",
+      category: "Home Decor",
+      price: 70,
+      oldPrice: 140,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product44.png",
+
+      description: "Shree mahalaxmi prasanna",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 45,
+      name: "Door plaque",
+      category: "Home Decor",
+      price: 70,
+      oldPrice: 140,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product45.png",
+
+      description: "Shree swami samarth",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 46,
+      name: "Door plaque",
+      category: "Home Decor",
+      price: 70,
+      oldPrice: 140,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product46.jpeg",
+
+      description: "Shree Ganeshay Namah",
+      available: true,
+      featured: true,
+    },
+
+    {
+      id: 47,
+      name: "Door plaque",
+      category: "Home Decor",
+      price: 70,
+      oldPrice: 140,
+        sale: true,
+  saleLabel: "50 % OFF",
+      image: "/products/product47.jpeg",
+
+      description: "Shree Krishna Prasanna",
+      available: true,
+      featured: true,
+    },
   ],
 
    googleForm: {
