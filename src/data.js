@@ -684,7 +684,7 @@ const data = {
       price: 120,
       oldPrice: 240,
         sale: true,
-  saleLabel: "50 % OFF",
+  saleLabel: "Out Of Stock",
       image: "/products/product34.png",
 
        images: [
