@@ -666,7 +666,7 @@ const data = {
       price: 120,
       oldPrice: 240,
         sale: true,
-  saleLabel: "50 % OFF",
+  saleLabel: "Out Of Stock",
       image: "/products/product33.png",
 
        images: [
@@ -702,7 +702,7 @@ const data = {
       price: 120,
       oldPrice: 240,
         sale: true,
-  saleLabel: "50 % OFF",
+  saleLabel: "Out Of Stock",
       image: "/products/product35.png",
 
        images: [
@@ -720,7 +720,7 @@ const data = {
       price: 120,
       oldPrice: 240,
         sale: true,
-  saleLabel: "50 % OFF",
+  saleLabel: "Out Of Stock",
       image: "/products/product36.png",
 
        images: [
@@ -738,7 +738,7 @@ const data = {
       price: 120,
       oldPrice: 240,
         sale: true,
-  saleLabel: "50 % OFF",
+  saleLabel: "Out Of Stock",
       image: "/products/product37.png",
 
        images: [
@@ -756,7 +756,7 @@ const data = {
       price: 120,
       oldPrice: 240,
         sale: true,
-  saleLabel: "50 % OFF",
+  saleLabel: "Out Of Stock",
       image: "/products/product38.png",
 
        images: [
@@ -774,7 +774,7 @@ const data = {
       price: 120,
       oldPrice: 240,
         sale: true,
-  saleLabel: "50 % OFF",
+  saleLabel: "Out Of Stock",
       image: "/products/product39.png",
 
        images: [
@@ -792,7 +792,7 @@ const data = {
       price: 120,
       oldPrice: 240,
         sale: true,
-  saleLabel: "50 % OFF",
+  saleLabel: "Out Of Stock",
       image: "/products/product40.png",
 
        images: [
@@ -810,7 +810,7 @@ const data = {
       price: 120,
       oldPrice: 240,
         sale: true,
-  saleLabel: "50 % OFF",
+  saleLabel: "Out Of Stock",
       image: "/products/product41.png",
 
        images: [
@@ -828,7 +828,7 @@ const data = {
       price: 120,
       oldPrice: 240,
         sale: true,
-  saleLabel: "50 % OFF",
+  saleLabel: "Out Of Stock",
       image: "/products/product42.png",
 
        images: [
